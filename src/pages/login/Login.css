@@ -1,0 +1,17 @@
+.negrito {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.imagem {
+    background-image: url(https://i.pinimg.com/474x/66/dc/ca/66dcca5a43bc51a2d669fa4782618c12.jpg);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 92vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-none {
+    text-decoration: none;
+}
