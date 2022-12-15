@@ -8,6 +8,7 @@ import { busca, buscaId, post, put } from '../../../services/Service';
 import { useSelector } from 'react-redux';
 import TokenState from '../../../store/tokens/tokenReducer';
 
+
 function CadastroPost() {
     let navigate = useNavigate();
     const { id } = useParams<{ id: string }>();
@@ -18,8 +19,8 @@ function CadastroPost() {
 
     useEffect(() => {
         if (token == "") {
-            alert("Você precisa estar logado")
-            navigate("/login")
+            
+            
 
         }
     }, [token])
